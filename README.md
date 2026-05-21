@@ -26,7 +26,7 @@ El proyecto se divide en dos fases tecnológicas:
 1. **Modelo Base (Fase 1 y 2):** **Random Forest Regressor** (Scikit-Learn). Seleccionado por su capacidad para manejar interacciones no lineales entre variables epidemiológicas y su robustez frente al ruido y desbalance de los datos.
 2. **Modelo Avanzado (Fase 2 y 3):** Arquitectura de Deep Learning basada en **Transformers para datos tabulares** (ej. TabTransformer / FT-Transformer) usando TensorFlow/PyTorch, con el fin de capturar dependencias espaciales complejas a través de mecanismos de atención.
 
-### 📊 Métricas de Evaluación:
+### Métricas de Evaluación:
 * Coeficiente de determinación ($R^2$)
 * Error Cuadrático Medio (RMSE)
 * Error Absoluto Medio (MAE)
